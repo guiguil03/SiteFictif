@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #adb5bd;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.haut{
+    display: grid;
+    color: white;
+    padding-bottom:400px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows:245px 160px 50px ;
+    grid-template-areas: "img0 img0 img0"
+                         "img1 img2 img3"
+                         "tex tex tex"
+                         ;
+    border: 2px solid white;
+    width:634px;
+    height:540px;
+    background: white;
+    box-shadow: 30px 20px 10px 10px #979a9e;
+    transform: translateY(-60px);
+
+}
+.bas{
+    margin:30px;
+    border: 2px solid white;
+    background: white;
+    width:50%;
+    height:410px;
+    box-shadow: 30px 20px 10px 10px #979a9e;
+    transform: translateY(-50px);
+
+}
+.logo{
+    width:20%;
+    position: relative;
+    top:70px;
+    z-index:1;
+
+
+
+}
+.img1{
+    grid-area:img1;
+    width:113%;
+    height:145px;
+
+}
+.img0{
+    grid-area:img0;
+    width: 105%;
+    height:245px;   
+
+}
+.img2{
+    grid-area:img2;
+    width:113%;
+    height:145px;
+}
+.img3{
+    grid-area:img3;
+    width:113%;
+    height:145px
+}
+.text{
+    grid-area: tex;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color:black;
+    font-weight: 900;
+    font-size: 22px;
+}
+.hist{
+    color:black;
+    background: white;
+    width:300%;
+    opacity:0.6;
+    text-align: center;
+    font-size:19px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.ligne1{
+    display: flex;
+    font-family: 10px;
+    justify-content: space-between;
+}
+.ligne1 p1{
+    font-weight: 600;
+    padding-right: 40px;
+    padding-top:20px
+}
+.first,.second,.third{
+    padding:20px;
+}
+.four{
+    padding-top:20px;
+}
+.cart{
+    background: white;
+}
+.ligne2{
+    color:rgb(240, 147, 101)
+}
+footer{
+    height:140px;
+    background-color:#e9ecef;
+    color:black;
+    border:2px solid white;
+    width:100%;
+    padding-left:30px
+}
+.img4{
+    width:280px;
+    height: 140px;
+    float: right;
+    bottom:110px;
+    position: relative;
+}
